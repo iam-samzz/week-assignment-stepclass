@@ -11,6 +11,7 @@ class Client {
         this.accountBalance = accountBalance;
     }
 
+
     @Override
     public String toString() { return id + "(" + riskScore + ")"; }
 }
